@@ -64,7 +64,7 @@
     Element and tag names must be permissible
 
 #### The Tree Model of XML Documents: An Example
-   ![nodetree]('./img/nodetree.gif') 
+   ![nodetree](img/nodetree.gif) 
    
     ``` xml
         <?xml version="1.0" encoding="UTF-8"?>
