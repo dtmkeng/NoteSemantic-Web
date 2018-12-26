@@ -89,4 +89,68 @@
         </bookstore>
    ```
 
-#### Structuring XML Documents 
+### Structuring XML Documents
+    มีการกำหนดเอกสาร XML ก่อน จะทำการเขียน XML (กำหนดโครงสร้าง) มี 2 เเบบหลัก ๆ
+    - DTDs
+    - XML schema *
+
+#### DTD
+    ``` xml
+        <lecturer>
+            <name>Dvaic  Billingto</name>
+            <phone>+66 -7 - 38462 507</phone>
+        </lecturer>
+  
+    - define DTD
+
+   
+        <!ELEMENT lecturer (name,phone) >
+        <!ELEMENT name (#PCDATA) >
+        <!ELEMENT phone (#PCDATA) >
+    ```
+    
+
+#### XML Schema
+
+    ``` xml
+        <schema "http://www.w3.org/2000/10/XMLSchema" version = "1.0">
+        <element name="email"/>
+        <elememt name="head" minOccurs="1" maxOccurs="1"/> 
+        <element name="to" minOccurs="1"/>
+
+        <attribute name="id" type="ID" use="required"/>
+    ```
+##### Complex data types
+    - sequence มีระดับการเขียนที่ตายตัว เรียงลำดับ
+    - all เลือกอะไรก็ได้ มาก่อนมาหลัง เเต่ต้องเลือกให้ครบ
+    - choice เลือออะไรก็ได้ ไม่ครบก็ได้
+
+#### Nampspace
+
+
+### RDF 
+    ------------เรืองที่เรียนมาเเต่ก่อน---------------
+    XML mate lang 
+    inter exchange palform
+    machine ต้องเข้าใจ
+    XML สร้างในเชิงโครงสร้างได้ เเต่ใช้ในเชิงความหมายไม่ได้
+    -------------RDF--------------
+    จะอธิบาย
+#### องค์ประกอบ ของ RDF
+    - resources 
+    - properties
+    - statement
+
+#### Resources (RDF)
+    - object 
+    - ประกอบด้วยหลาย statement
+    - URI ที่อ้างอิงเเหลงข้อมูลจัดเก็บ
+
+#### Properties
+    จะอธิบาย resoces/object
+
+#### Data Types
+    - datatype เดียว string / riteral
+### RDF schema
+    
+    
