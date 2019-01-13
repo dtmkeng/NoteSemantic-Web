@@ -1,6 +1,88 @@
 # Semantic web
 
 ### what is Semantic web 
+    Web tech timeline
+#### 1. File System
+    - Email
+    - FTP
+    - IRC
+    - USENENT
+    - PC's
+#### 2. PC Era 
+    - ช่วงของ OS
+#### 3. Web 1.0
+    เว็บในการจัดการความรู้ที่ชัดเจน.
+    Application:
+        HTML Document Web-Database
+        VR,Gopper,SQL,BBS,HTTP,SOAP
+#### 4. Web 2.0
+    เทคโนโลยีการจัดการความรู้โดยปริยาย
+    Application:
+        Wiki, Blogs, Social Network
+    Tech
+        JS,JAVA,XML,PDF,P2P,RSS,OPENID
+#### 5. Web 3.0
+    ความรู้เชิงความหมายการจัดการ
+    Application:
+        Ontology, Intelligent Agent, QuestionAnswering
+        Sematic Search,Semantic DB,Widget
+    Tech
+        OWL,SPARQL,SWRL,ATOM
+### What is the problem
+    เนื้อหาที่อยู่บนหน้าเว็บเราสามารถอ่านเข้าใจได้เเต่ computer (เครื่องจักร)
+#### สิ่งที่คนเห็น
+    ![](img/humread.JPG)
+#### สิ่งที่ computer เห็น
+    ![](img/mecharead.JPG)
+### WWW vs Semantic Web
+    -  WWW is a web of documents ก็คือ web ธรรมดา
+    -  SW is a web of data  web เชิงข้อมูล
+    -  WWW documents are human readable web ที่คนอ่านได้
+    -  SW data is machine readable (in theory at least) web ที่ เครื่องจักรก็อ่านได้
+### Ontologies
+    เป็นข้อกำหนดที่ชัดเจนและเป็นทางการของการสร้างแนวความคิด
+    การศึกษาลักษณะของการดำรงอยู่
+### Typical Components of Ontologies 
+    ส่วนประกอบของ ontology
+#### terms 
+    เเสดงถึงเเนวคิดหลังที่สำคัญ
+#### Relationships
+    ความสัมพันธ์ของ terms มีรูปเเบบเป็นลำดับชั้น
+#### Properties
+    e.g. X teaches Y
+#### Value restrictions
+    e.g. only faculty members can teach courses
+#### Disjointness statements
+    e.g. faculty and general staff are disjoint
+#### Logical relationships between objects
+    e.g. every department must include at least 10 faculty
+#### Example of a Class Hierarchy
+    ![](img/heraonto.JPG)
+### Ontology language
+    ■ XML (Extensible markup language)
+    ■ RDF (Resource description framework)
+    ■ OWL (Web ontology language)
+    ■ SWRL (Semantic Web Rule Language)
+    ■ SPARQL Query Language
+### The Semantic Web Layer Tower
+    ![](img/ontotow.JPG)
+### Semantic Web Layers
+#### XML layer
+    – Syntactic basis
+#### RDF layer
+    – RDF basic data model for facts
+    – RDF Schema simple ontology language
+#### Ontology layer
+    – More expressive languages than RDF Schema
+    – Current Web standard: OWL
+#### Logic layer
+    – enhance ontology languages further
+    – application-specific declarative knowledge
+#### Proof layer
+    – Proof generation, exchange, validation
+#### Trust layer
+    – Digital signatures
+    – recommendations, rating agencies …. 
 
 ### XLM 
 
