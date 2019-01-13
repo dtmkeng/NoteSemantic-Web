@@ -152,5 +152,9 @@
 #### Data Types
     - datatype เดียว string / riteral
 ### RDF schema
-    
+    - อะิบาย RDF 
+
+    - domain range ต้องมีความสัมพันธ์กัน
+    - 
+
     
