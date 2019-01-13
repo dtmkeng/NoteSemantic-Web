@@ -31,9 +31,9 @@
 ### What is the problem
     เนื้อหาที่อยู่บนหน้าเว็บเราสามารถอ่านเข้าใจได้เเต่ computer (เครื่องจักร)
 #### สิ่งที่คนเห็น
-    ![](img/humread.JPG)
+   ![](img/humread.JPG)
 #### สิ่งที่ computer เห็น
-    ![](img/mecharead.JPG)
+   ![](img/mecharead.JPG)
 ### WWW vs Semantic Web
     -  WWW is a web of documents ก็คือ web ธรรมดา
     -  SW is a web of data  web เชิงข้อมูล
@@ -57,7 +57,7 @@
 #### Logical relationships between objects
     e.g. every department must include at least 10 faculty
 #### Example of a Class Hierarchy
-    ![](img/heraonto.JPG)
+   ![](img/heraonto.JPG =500x500)
 ### Ontology language
     ■ XML (Extensible markup language)
     ■ RDF (Resource description framework)
@@ -65,7 +65,7 @@
     ■ SWRL (Semantic Web Rule Language)
     ■ SPARQL Query Language
 ### The Semantic Web Layer Tower
-    ![](img/ontotow.JPG)
+   ![](img/ontotow.JPG)
 ### Semantic Web Layers
 #### XML layer
     – Syntactic basis
